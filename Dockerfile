@@ -10,7 +10,3 @@ RUN npm install -g expo-cli
 
 # Expo Connection; Metro Bundler; Expo DevTools
 EXPOSE 19000 19001 19002
-
-# Cleanup
-RUN apt clean
-RUN apt autoclean
